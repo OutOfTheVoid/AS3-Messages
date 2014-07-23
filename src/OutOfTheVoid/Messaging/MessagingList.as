@@ -38,7 +38,7 @@ package OutOfTheVoid.Messaging
 			
 		};
 		
-		public function AddFiler ( ID:String ) : void
+		public function AddFilter ( ID:String ) : void
 		{
 			
 			if ( ! Filtering )
@@ -48,7 +48,7 @@ package OutOfTheVoid.Messaging
 			
 		};
 		
-		public function RemoveFiler ( ID:String ) : void
+		public function RemoveFilter ( ID:String ) : void
 		{
 			
 			if ( ! Filtering )
